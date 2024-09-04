@@ -5,7 +5,7 @@ export async function POST(req: Request) {
   try {
     
       let user = await req.json();
-      {}
+     
       return new Response(JSON.stringify({ message: 'User Registration Successful' }), {
         status: 200,
     
